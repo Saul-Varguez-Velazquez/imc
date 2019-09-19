@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/fragment_container"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -29,24 +28,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <LinearLayout
+    <Button
+        android:id="@+id/boton_calcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:text="@string/texto_boton_calcular"/>
 
-        <Button
-            android:id="@+id/boton_calcular"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/texto_boton_calcular"/>
-
-        <Button
-            android:id="@+id/boton_limpiar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/texto_boton_limpiar"/>
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/boton_limpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_limpiar"/>
 
     <TextView
         android:layout_width="wrap_content"
